@@ -1,0 +1,41 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+/*Adding Images*/
+.img1 {
+  background-image: url("./media/img1.jpg");
+}
+.img2 {
+  background-image: url("./media/img2.jpg");
+}
+
+.img3 {
+  background-image: url("./media/img3.jpg");
+}
+
+.img4 {
+  background-image: url("./media/img4.jpg");
+}
+
+.scrollEffect {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.block {
+  background-color: rgba(0, 0, 0);
+  color: white;
+  height: 30rem;
+  font-size: 3rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
